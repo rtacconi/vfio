@@ -6,6 +6,10 @@
 
 ## Fixed
 
+- Take a region's flags, size, and offset from the capability-sized
+  `VFIO_DEVICE_GET_REGION_INFO` answer, so a driver that reports
+  `VFIO_REGION_INFO_FLAG_MMAP` only there gets its region mapped
+
 # [v0.10.0]
 
 ## Changed
